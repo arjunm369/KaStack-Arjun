@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+# Note: .env is included for portfolio sharing so HR can test the project
+.env.local
+
+# IDE (included for portfolio sharing to help HR use VS Code)
+# .vscode/  # Commented out - included for sharing
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pdf
+*.docx
+uploads/
+
+# Logs
+*.log
+
+
