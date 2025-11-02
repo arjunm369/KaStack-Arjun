@@ -10,8 +10,10 @@ ENV/
 .venv
 
 # Environment variables
-# Note: .env is included for portfolio sharing so HR can test the project
+.env
 .env.local
+.env.*
+!.env.example
 
 # IDE (included for portfolio sharing to help HR use VS Code)
 # .vscode/  # Commented out - included for sharing
